@@ -1,0 +1,6 @@
+[submodule "ocaml-bytes"]
+	path = ocaml-bytes
+	url = https://github.com/chambart/ocaml-bytes
+[submodule "ocaml-ctypes"]
+	path = ocaml-ctypes
+	url = https://github.com/ocamllabs/ocaml-ctypes
