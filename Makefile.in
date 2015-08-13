@@ -1,4 +1,8 @@
-default: test_syscalls.native test_syscalls.byte
+default: all
+.PHONY: all install
+all: test_syscalls.native test_syscalls.byte
+install:
+	@echo "=== not doing anything to install libfootprints-ocaml"
 
 ACLOCAL = @ACLOCAL@
 AMTAR = @AMTAR@
