@@ -1,11 +1,8 @@
 /_build/
 /test_syscalls.native
+/test_syscalls.byte
 
-*.allocstubs.c
-*.allocstubs.s
-*.cil.c
-*.cil.i
-*.cil.s
+*.cmxa
 *.cma
 *.cmi
 *.cmo
